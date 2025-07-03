@@ -1,0 +1,71 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+
+# === Virtual environments ===
+env/
+venv/
+ENV/
+VENV/
+.venv/
+.env/
+.ENV/
+
+# === Jupyter Notebooks ===
+.ipynb_checkpoints
+
+# === Pytest ===
+.cache/
+.pytest_cache/
+
+# === MyPy ===
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# === PyInstaller ===
+*.spec
+
+# === Coverage reports ===
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# === Logs and local config ===
+*.log
+*.env
+*.ini
+*.cfg
+*.db
+*.sqlite3
+
+# === VSCode ===
+.vscode/
+
+# === PyCharm ===
+.idea/
+
+# === macOS ===
+.DS_Store
+
+# === Windows ===
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+
+
+# dataset
+datasets/
+*.h5
+*.zip
